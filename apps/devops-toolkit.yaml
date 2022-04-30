@@ -13,7 +13,7 @@ spec:
     path: kustomize/overlays/production
     kustomize:
       images:
-      - vfarcic/devops-toolkit-series:12.0.89
+      - vfarcic/devops-toolkit-series:9.9.9
   destination:
     server: https://kubernetes.default.svc
     namespace: production
